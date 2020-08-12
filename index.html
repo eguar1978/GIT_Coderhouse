@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="sass/style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -13,15 +13,108 @@
   <body>
       <div class="container">
           <div class="row justify-content-md-center">
-              <h1>Desafio Git <i class="fa fa-github" aria-hidden="true"></i></h1>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-          </div>
-          <div class="row justify-content-md-center">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
+              <h1>Desafio Git & GitHub <i class="fa fa-github" aria-hidden="true"></i></h1>
+            <table class="table table-sm table-dark">
+                <thead class="">
+                    <tr>
+                        <td class="text-center" scope="row" colspan="3"><h4>Primeros pasos</h4></td>
+                    </tr>
+                    <tr>
+                        <th>#</th>
+                        <th>Comando</th>
+                        <th>Resultado</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">1</td>
+                            <td>git --version</td>
+                            <td>Versión de Git</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">2</td>
+                            <td>git config --global user.name "Andres Damonte"</td>
+                            <td>Establece nombre</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">3</td>
+                            <td>git config --global user.mail "mail@gmail.com"</td>
+                            <td>Establece correo a usar</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">4</td>
+                            <td>git config --list</td>
+                            <td>Se puede ver usuario, mail y otros parametros, dependen de cada SO</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">5</td>
+                            <td>git config user.name</td>
+                            <td>Comprueba que valor tiene la clave nombre en Git</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">6</td>
+                            <td>git config user.email</td>
+                            <td>Comprueba que valor tiene la clave email en Git</td>
+                        </tr>
+                        <thead class="">
+                            <tr>
+                                <td class="text-center" scope="row" colspan="3"><h4>Obteniendo ayuda</h4></td>
+                            </tr>
+                            <tr>
+                                <th>#</th>
+                                <th>Comando</th>
+                                <th>Resultado</th>
+                            </tr>
+                            </thead>
+                            <tr>
+                                <td scope="row">1</td>
+                                <td>git help config</td>
+                                <td rowspan="3" class="align-middle text-center">Los tres comandos que disparan la ayuda de Git</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">2</td>
+                                <td>git config --help</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">3</td>
+                                <td>man git-config</td>
+                            </tr>
+                            <thead class="">
+                                <tr>
+                                    <td class="text-center" scope="row" colspan="3"><h4>GIT INITx</h4></td>
+                                </tr>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Comando</th>
+                                    <th>Resultado</th>
+                                </tr>
+                                </thead>
+                                <tr>
+                                    <td scope="row">1</td>
+                                    <td><i class="usuario__consola">andres@damonte</i><i class="caracteres__consola">:~</i><i class="directorio__consola">$</i> cd Documents/Proyectos_Coder/</td>
+                                    <td>Me ubico en la carpeta donde quiero crear mi proyecto</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">2</td>
+                                    <td><i class="usuario__consola">andres@damonte</i><i class="caracteres__consola">:~</i><i class="directorio__consola">/Documents/Proyectos_Coder/$</i> git init mi_repositorio</td>
+                                    <td>Dentro de la carpeta inicio el proyecto</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row"></td>
+                                    <td colspan="2">Initialized empty Git repositoriy in /home/usuario/Documents/Proyectos_Coder/mi_repositorio/ .git/</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">3</td>
+                                    <td><i class="usuario__consola">andres@damonte</i><i class="caracteres__consola">:~</i><i class="directorio__consola">/Documents/Proyectos_Coder/$</i> dir</td>
+                                    <td>mi_repositorio</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">4</td>
+                                    <td><i class="usuario__consola">andres@damonte</i><i class="caracteres__consola">:~</i><i class="directorio__consola">/Documents/Proyectos_Coder/$</i> cd mi_repositorio</td>
+                                    <td><i class="usuario__consola">andres@damonte</i><i class="caracteres__consola">:~</i><i class="directorio__consola">/Documents/Proyectos_Coder/mi_repositorio$</i></td>
+                                </tr>
+                    </tbody>
+            </table>
           </div>
       </div>
     <!-- Optional JavaScript -->

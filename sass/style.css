@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.usuario__consola {
+  color: #48f526;
+}
+
+.caracteres__consola {
+  color: #ee2cde;
+}
+
+.directorio__consola {
+  color: #eaf82a;
+}
+/*# sourceMappingURL=style.css.map */
